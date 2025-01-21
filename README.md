@@ -21,8 +21,6 @@ And also as an archive for the author after learning the fundamentals of HTML. T
 - [Contributing](#contributing)
 - [License](#license)
 
----
-
 ## Introduction
 
 HTML is the backbone of the web. It structures the content that we see and interact with on the internet. This repository will guide you through the core concepts of HTML, ensuring you have a solid foundation to build on for more advanced web development skills.
