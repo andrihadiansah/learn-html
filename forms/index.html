@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML Forms</h1>
+    </header>
+
+    <main>
+      <h2>Basic Form Example</h2>
+      <form action="/submit" method="POST">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+        <br /><br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+        <br /><br />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+        <br /><br />
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+        <br /><br />
+
+        <label for="bio">Bio:</label>
+        <textarea
+          id="bio"
+          name="bio"
+          placeholder="Write something about yourself"
+        ></textarea>
+        <br /><br />
+
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </form>
+
+      <h2>Login Form Example</h2>
+      <form action="/login" method="POST">
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+          required
+        />
+        <br /><br />
+
+        <label for="login-password">Password:</label>
+        <input
+          type="password"
+          id="login-password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+        <br /><br />
+
+        <button type="submit">Login</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 HTML Forms Tutorial. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
