@@ -38,7 +38,7 @@ No prior knowledge of HTML is required. However, basic familiarity with using a 
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/learn-html.git
+   git clone https://github.com/andrihadiansah/learn-html.git
    ```
 2. Navigate to the project directory:
    ```bash
